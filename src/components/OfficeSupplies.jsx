@@ -4,16 +4,16 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
-import Logo1 from '../assets/images/Logo1.png'
-import Logo2 from '../assets/images/Logo2.png'
-import Logo3 from '../assets/images/Logo3.png'
-import Logo4 from '../assets/images/Logo4.png'
-import Logo5 from '../assets/images/Logo5.png'
+import Logo1 from '../assets/images/logo1.png'
+import Logo2 from '../assets/images/logo2.png'
+import Logo3 from '../assets/images/logo3.png'
+import Logo4 from '../assets/images/logo4.png'
+import Logo5 from '../assets/images/logo5.png'
 import Logo6 from '../assets/images/logo6 (2).webp'
-import Logo7 from '../assets/images/Logo7.png'
-import Logo8 from '../assets/images/Logo8.png'
-import Logo9 from '../assets/images/Logo9.png'
-import Logo10 from '../assets/images/Logo10.png'
+import Logo7 from '../assets/images/logo7.png'
+import Logo8 from '../assets/images/logo8.png'
+import Logo9 from '../assets/images/logo9.png'
+import Logo10 from '../assets/images/logo10.png'
 
 const officeBrands = [
   { name: "Logo1", logo: Logo1 },
