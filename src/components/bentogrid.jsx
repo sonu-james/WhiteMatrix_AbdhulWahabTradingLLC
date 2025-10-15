@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import thermowell from '../assets/images/thermowell.avif'
-import guages from '../assets/images/guages.jpg'
+import guages from '../assets/images/Guages.jpg'
 import indicators from '../assets/images/indicators.jpg'
 import cables from '../assets/images/cables.jpg'
 import steelShot from '../assets/images/steelShot.jpg'
