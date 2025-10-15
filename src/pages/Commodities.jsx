@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import thermowell from '../assets/images/thermowell.avif'
-import guages from '../assets/images/guages.jpg'
+import guages from '../assets/images/Guages.jpg'
 import indicators from '../assets/images/indicators.jpg'
 import cables from '../assets/images/cables.jpg'
 import steelShots from '../assets/images/steelShot.jpg'
