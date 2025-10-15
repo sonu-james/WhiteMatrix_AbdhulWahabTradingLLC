@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import thermowell from '../assets/images/thermowell.avif'
-import guages from '../assets/images/guages.webp'
+import guages from '../assets/images/guages.jpg'
 import indicators from '../assets/images/indicators.jpg'
 import cables from '../assets/images/cables.jpg'
 import steelShot from '../assets/images/steelShot.jpg'
@@ -26,7 +26,7 @@ export default function BentoGrid() {
 
   return (
     <div
-      className="m-3 bg-white flex items-center justify-center p-4 relative"
+      className="m-3  flex items-center justify-center p-4 relative"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >

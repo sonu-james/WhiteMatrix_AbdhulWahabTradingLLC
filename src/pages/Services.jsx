@@ -6,11 +6,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import video1 from "../assets/videos/video1.mp4";
-import video2 from "../assets/videos/video4.mp4";
-import video3 from "../assets/videos/video5.mp4";
-import video4 from "../assets/videos/video3.mp4";
-import video5 from "../assets/videos/video2.mp4";
+const video1 = new URL("../assets/videos/video1.mp4", import.meta.url).href;
+const video2 = new URL("../assets/videos/video4.mp4", import.meta.url).href;
+const video3 = new URL("../assets/videos/video5.mp4", import.meta.url).href;
+const video4 = new URL("../assets/videos/video3.mp4", import.meta.url).href;
+const video5 = new URL("../assets/videos/video2.mp4", import.meta.url).href;
 
 const services = [
   {
@@ -47,14 +47,14 @@ const services = [
 
 const Services = () => {
   return (
- <section className="w-full min-h-screen py-16 sm:py-20 px-4 sm:px-10 md:px-20 overflow-hidden bg-[#1A83C7] text-white">
+ <section className="w-full min-h-screen py-16 sm:py-20 overflow-hidden text-white">
   {/* Header */}
   <div className="text-center mb-12 px-2 sm:px-4">
     <motion.h1
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="text-3xl sm:text-5xl md:text-6xl font-thin mb-4 tracking-wide font-roboto"
+      className="text-3xl sm:text-5xl md:text-6xl font-thin mb-4 tracking-wide font-roboto text-gray-900"
     >
       Our Services
     </motion.h1>
@@ -62,7 +62,7 @@ const Services = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.3, duration: 0.8 }}
-      className="text-gray-200 text-sm sm:text-base md:text-lg max-w-2xl mx-auto font-thin font-roboto"
+      className="text-gray-500 text-sm sm:text-base md:text-lg max-w-2xl mx-auto font-thin font-roboto"
     >
       We provide cutting-edge industrial materials, tools, and technologies
       that empower global industries to perform better and greener.
@@ -82,7 +82,7 @@ const Services = () => {
   >
     {services.map((service, index) => (
       <SwiperSlide key={index}>
-        <div className="flex flex-col md:flex-row items-stretch justify-center relative overflow-hidden w-full h-auto md:h-[80vh]">
+        <div className="flex flex-col md:flex-row items-stretch justify-center  relative overflow-hidden w-full h-auto md:h-[80vh]">
           {/* Left Image / Video */}
           <motion.div
             initial={{ scale: 0.95, opacity: 0 }}

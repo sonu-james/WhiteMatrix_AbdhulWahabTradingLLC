@@ -2,22 +2,24 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import thermowell from '../assets/images/thermowell.avif'
-import guages from '../assets/images/guages.webp'
+import guages from '../assets/images/guages.jpg'
 import indicators from '../assets/images/indicators.jpg'
 import cables from '../assets/images/cables.jpg'
-import steelShots from '../assets/images/steelShots.jpg'
-import solenoidValves from '../assets/images/solenoidValves.jpg'
+import steelShots from '../assets/images/steelShot.jpg'
+import solenoidValves from '../assets/images/solenoidValve.jpg'
 import Collectors from '../assets/images/Collectors-Hepas.jpg'
 import ceramicBlanket from '../assets/images/ceramicBlanket.jpeg'
 import bricks from '../assets/images/bricks.jpeg'
 import mortar from '../assets/images/mortar.jpeg'
-import steel from '../assets/images/steel.jpg'
+import steel from '../assets/images/steelbars.jpeg'
 import processValves from '../assets/images/processValves.jpeg'
 import cylinders from '../assets/images/cylinders.png'
 import gaskets from '../assets/images/gaskets.jpeg'
 import coating from '../assets/images/marineCoating.jpg'
 import battery from '../assets/images/battery.jpg'
 import liquidFilter from '../assets/images/liquidFilter.jpg'
+import airFilter from '../assets/images/airfilter.jpg'
+
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -107,11 +109,18 @@ const allProducts = [
     image: Collectors,
   },
   {
+    title: "FILTER SOLUTIONS (AIR FILTER)",
+    desc: "Efficient air filtration for clean airflow, equipment protection, and improved performance.",
+    category: "Filtration",
+    image: airFilter,
+  },
+  {
     title: "FILTER SOLUTIONS (LIQUID FILTER)",
     desc: "Reliable liquid filtration ensuring purity, system efficiency, and reduced maintenance.",
     category: "Filtration",
     image: liquidFilter,
   },
+
   {
     title: "METALLIC GASKETS (ALL TYPES)",
     desc: "Leak-proof sealing solutions designed for high-pressure and high-temperature applications.",

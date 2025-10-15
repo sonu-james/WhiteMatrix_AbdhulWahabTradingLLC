@@ -3,7 +3,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import About from './About';
-import ServicesNew from './ServicesNew';
 import ProductSection from '../components/ProductSection';
 import WhyChooseUs from '../components/WhyChooseUs';
 import OfficeSupplies from '../components/OfficeSupplies';

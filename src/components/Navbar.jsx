@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom"; // ✅ React Router
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logo from '../assets/images/textlogo.png'
+import textlogo from '../assets/images/textlogo.png'
 
 export default function Navbar() {
   const menuItems = ["HOME", "ABOUT", "SERVICES", "PRODUCT", "WHY US", "CONTACT"];
@@ -123,7 +123,7 @@ export default function Navbar() {
           {showLogo && (
             <div className="flex h-16">
               <img
-                src={logo}
+                src={textlogo}
                 alt="Logo"
                 className="h-full object-contain"
               />

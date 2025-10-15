@@ -14,18 +14,24 @@ import Logo7 from '../assets/images/logo7.png'
 import Logo8 from '../assets/images/logo8.png'
 import Logo9 from '../assets/images/logo9.png'
 import Logo10 from '../assets/images/logo10.png'
+import Logo11 from '../assets/images/logo11.jpg'
+import Logo12 from '../assets/images/logo12.jpg'
+import Logo13 from '../assets/images/logo13.jpg'
 
 const officeBrands = [
   { name: "Logo1", logo: Logo1 },
-  { name: "Logo2", logo: Logo2},
-  { name: "Logo3", logo: Logo3},
+  { name: "Logo2", logo: Logo2 },
+  { name: "Logo3", logo: Logo3 },
   { name: "Logo4", logo: Logo4 },
   { name: "Logo5", logo: Logo5 },
   { name: "Logo6", logo: Logo6 },
   { name: "Logo7", logo: Logo7 },
-  { name: "Logo8", logo:Logo8 },
+  { name: "Logo8", logo: Logo8 },
   { name: "Logo9", logo: Logo9 },
   { name: "Logo10", logo: Logo10 },
+  { name: "Logo11", logo: Logo11 },
+  { name: "Logo12", logo: Logo12 },
+    { name: "Logo13", logo: Logo13 },
 ];
 
 export default function OfficeSupplies() {

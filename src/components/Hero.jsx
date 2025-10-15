@@ -51,8 +51,6 @@ export default function HeroSection() {
 >
   ABDULWAHAB TRADING LLC
 </h1>
-
-
           <p
             dir="rtl"
             className="text-2xl md:text-3xl font-bold text-yellow-300 tracking-wide mt-2"
